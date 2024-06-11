@@ -93,7 +93,8 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: var(--bs-body-font-family); font-family: "Lucida Console", "Courier New", monospace;
+
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -3610,7 +3611,7 @@ textarea.form-control-lg {
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
-  --bs-nav-link-disabled-color: #6c757d;
+  --bs-nav-link-disabled-color: #0088ff;
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
@@ -3643,11 +3644,11 @@ textarea.form-control-lg {
 
 .nav-tabs {
   --bs-nav-tabs-border-width: 1px;
-  --bs-nav-tabs-border-color: #dee2e6;
+  --bs-nav-tabs-border-color: #1970c7;
   --bs-nav-tabs-border-radius: 0.375rem;
   --bs-nav-tabs-link-hover-border-color: #e9ecef #e9ecef #dee2e6;
-  --bs-nav-tabs-link-active-color: #495057;
-  --bs-nav-tabs-link-active-bg: #fff;
+  --bs-nav-tabs-link-active-color: #1d69b4;
+  --bs-nav-tabs-link-active-bg: #f80000;
   --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
   border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
 }
@@ -3681,7 +3682,7 @@ textarea.form-control-lg {
 
 .nav-pills {
   --bs-nav-pills-border-radius: 0.375rem;
-  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-color: #664949;
   --bs-nav-pills-link-active-bg: #0d6efd;
 }
 .nav-pills .nav-link {
@@ -8155,7 +8156,7 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: 1; 
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
